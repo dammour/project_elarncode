@@ -1,0 +1,19 @@
+li{
+	padding: 8px;
+}
+#black_txt{
+	color: black;
+}
+#white_txt{
+	color: white;
+}
+.card{
+	margin-top: 15px;
+}
+body{
+	background-color: #c1c1c1;
+}
+.align-badge{
+	display: flex;
+	justify-content: center;
+}
