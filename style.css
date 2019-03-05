@@ -17,3 +17,23 @@ body{
 	display: flex;
 	justify-content: center;
 }
+.footer{
+	background-color: rgb(25,25,25,0.8);
+}
+.footer_links{
+	border: none;
+	color: white;
+}
+#bloc_card{
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+#bloc_card h2{
+	text-align: center;
+}
+#slider_end{
+	margin-bottom: 30px;
+}
+ul{
+	list-style: none;
+}
