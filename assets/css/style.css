@@ -10,6 +10,12 @@ h1, h2, .far
     color: #F85353 !important;
     content: ">" !important;
 }
+.fa-home:before {
+content: "\f015";
+top: 4px;
+right: 5px;
+position: relative;
+}
 /* aside */
 #aside
 {
@@ -36,3 +42,9 @@ list-style-type: none !important;
 {
     display: inline-block;
 }
+/* comment */
+.form-group
+{
+    width: 500px;
+}
+
