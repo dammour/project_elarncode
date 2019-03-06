@@ -1,3 +1,14 @@
+
+@media (max-width: 576px){
+	#text_footer{ font-size: 0.5em; }
+}
+@media (max-width: 768px){
+	#text_footer{ font-size: 0.6em; }
+}
+@media (max-width: 992px){
+	#text_footer{ font-size: 0.7em; }
+}
+
 li{
 	padding: 8px;
 }
@@ -10,15 +21,9 @@ li{
 .card{
 	margin-top: 15px;
 }
-body{
-	background-color: #c1c1c1;
-}
 .align-badge{
 	display: flex;
 	justify-content: center;
-}
-.footer{
-	background-color: rgb(25,25,25,0.8);
 }
 .footer_links{
 	border: none;
@@ -37,3 +42,70 @@ body{
 ul{
 	list-style: none;
 }
+#logo_store{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#logo_position{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#news_position p{
+font-size: 0.6em;
+}
+#news_position h4{
+font-size: 	0.8em;
+}
+#news_position{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	
+}
+#form_position_footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+#form_position_align_left{
+	display: flex;
+	align-items: flex-start;
+	margin-right: 5px;
+}
+#logo_reseaux_position{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.fa-twitter{
+	color: #4286f4;
+	background-color: white;
+}
+.fa-facebook{
+	color: #1c3d72;
+	background-color: white;
+}
+.fa-envelope{
+	color: grey;
+	background-color: white;
+}
+.red-line{
+	background-color: red;
+	width: 100%;
+	height: 10px;
+}
+.mr_ul_footer{
+	padding: 0px;
+}
+#text_footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
