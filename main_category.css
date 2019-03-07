@@ -1,3 +1,12 @@
+@media screen and (max-width: 576px) {
+    .media {
+    justify-content: center !important;
+    }
+}
+
+
+/*content*/
+
 .border-img
 {
     border: 1px solid;
@@ -24,10 +33,38 @@ img {
 }
 .media
 {
-    padding-bottom: 60px;
+    padding-bottom: 0px;
+    
 }
 
 h2
 {
     color: #F85353;
+
+}
+
+h5 {
+    color: #F85353;
+}
+
+.badge-secondary {
+
+    background-color: #F85353 !important;
+}
+
+#content h2 {
+    padding-bottom: 40px;
+
+}
+
+
+#badge {
+    padding-top: 10px;
+
+}
+
+.padd {
+    
+    padding-bottom: 70px;
+
 }
