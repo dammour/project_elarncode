@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 /* @media */
 @media screen and (max-width:576px)
 {
@@ -17,8 +15,7 @@
     }
     
 }
-=======
->>>>>>> 80b1de2262348e56e7ce9034bfb7b78582f56b38
+
 /* all */
 h1, h2, .far
 {
@@ -84,7 +81,6 @@ list-style-type: none !important;
 .breadcrumb-info li 
 {
     display: inline-block;
-<<<<<<< HEAD
 }
 .breadcrumb
 {
@@ -104,9 +100,7 @@ list-style-type: none !important;
 {
     background-color: #F85353;
     border-color:  #F85353;
-=======
->>>>>>> 80b1de2262348e56e7ce9034bfb7b78582f56b38
-=======
+
 @media (min-width: 1200px){
 	#text_footer{ font-size: 0.9em; }
 	#news_position h4, p{ font-size: 0.9em; }
@@ -260,5 +254,4 @@ ul{
 	color: white;
 	background-color: #F20B0B;
 	padding: 10px;
->>>>>>> 1175aab162d3f56ca43cb85ba226d273ac2aa3b9
 }
