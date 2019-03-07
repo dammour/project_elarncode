@@ -3,7 +3,7 @@ h2 {
     color: #F85353;
     padding-bottom: 40px;
 }
-form.form-inline.my-2.my-lg-0 {
+form {
     padding-top: 30px;
 }
 form .btn {
