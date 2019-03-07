@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* @media */
 @media screen and (max-width:576px)
 {
@@ -16,6 +17,8 @@
     }
     
 }
+=======
+>>>>>>> 80b1de2262348e56e7ce9034bfb7b78582f56b38
 /* all */
 h1, h2, .far
 {
@@ -81,6 +84,7 @@ list-style-type: none !important;
 .breadcrumb-info li 
 {
     display: inline-block;
+<<<<<<< HEAD
 }
 .breadcrumb
 {
@@ -100,6 +104,8 @@ list-style-type: none !important;
 {
     background-color: #F85353;
     border-color:  #F85353;
+=======
+>>>>>>> 80b1de2262348e56e7ce9034bfb7b78582f56b38
 =======
 @media (min-width: 1200px){
 	#text_footer{ font-size: 0.9em; }
