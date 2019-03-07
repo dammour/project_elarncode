@@ -105,6 +105,11 @@ ul{
 	align-items: flex-start;
 	margin-right: 5px;
 }
+
+form.form-inline.my-2.my-lg-0 {
+	padding-top: 0 !important;
+}
+
 #logo_reseaux_position{
 	display: flex;
 	flex-direction: row;
@@ -121,7 +126,6 @@ ul{
 }
 .fa-envelope{
 	color: grey;
-	background-color: white;
 }
 .fa-search{
 	color: grey;
@@ -151,37 +155,4 @@ ul{
 }
 .btn{
 	color: white;
-}
-
-/**** All ****/
-body {
-    font-family: 'roboto';
-} 
-h2 {
-    color: #F85353;
-    padding-bottom: 40px;
-}
-form {
-    padding-top: 30px;
-}
-form .btn {
-    background-color: #F85353;
-    border: none;
-}
-form .btn:hover {
-    background-color: #F85353;
-    color: #FFF;
-}
-.far {
-    padding-right: 10px;
-} 
-
-.p-legal-contact {
-    font-style: italic;
-    font-size: 0.7rem;
-    line-height: 1.8;
-}
-.wrapper {
-    margin-left: 10%;
-    margin-right: 10%;
 }
