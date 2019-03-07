@@ -28,6 +28,14 @@
 	#footer_info li{ font-size: 0.9em; }
 	#footer_info h4{ font-size: 1em; margin-bottom: 0px; }
 }
+
+#menu-burger {
+	padding: 0;
+}
+#menu-burger .navbar-toggler {
+	padding: .15rem .65rem;
+}
+
 .badge a {
 	color: yellow !important;
 	background-color: #F20B0B;
