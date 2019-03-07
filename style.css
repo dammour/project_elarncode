@@ -1,106 +1,3 @@
-<<<<<<< HEAD
-/* @media */
-@media screen and (max-width:576px)
-{
-    #aside
-    {
-        display: none;
-    }
-    .img_article
-    {
-        max-width: 150%;
-    }
-    .form-control
-    {
-        max-width: 150%;
-    }
-    
-}
-/* all */
-h1, h2, .far
-{
-    color: #F85353 !important;
-}
-h2
-{
-font-size: 22px;
-}
-/* breadcrumb */
-.breadcrumb-item+.breadcrumb-item::before {
-    display: inline-block !important;
-    padding-right: .5rem !important;
-    color: #F85353 !important;
-    content: ">" !important;
-}
-.badge .badge-danger
-{
-    margin: 15px;
-}
-.nav-link
-{
-    color: #1B355B !important;
-    font-size: 15px;
-}
-.fa-home:before {
-content: "\f015";
-top: 4px;
-right: 5px;
-position: relative;
-}
-/* aside */
-#aside
-{
-border-right: 0.1px solid rgba(112, 112, 112) !important;
-}
-/* content */
-#content
-{
-    padding-left: 50px;
-}
-#img_article
-{
-    padding-top: 20px;
-}
-/* breadcrumb-info */
-.breadcrumb-info li:nth-child(2)
-{
-    padding-right: 15px;
-}
-.breadcrumb-info i:nth-child(1)
-{
-    padding-right: 15px !important;
-}
-ul.breadcrumb-info
-{
-    padding-left: 5px;
-}
-.breadcrumb-info
-{
-list-style-type: none !important;
-}
-.breadcrumb-info li 
-{
-    display: inline-block;
-}
-.breadcrumb
-{
-    background-color: white;
-    font-size: 22px;
-}
-.breadcrumb-item
-{
-    color: #1B355B;
-}
-/* comment */
-.form-group
-{
-    width: 500px;
-}
-.btn-primary
-{
-    background-color: #F85353;
-    border-color:  #F85353;
-=======
 @media (min-width: 1200px){
 	#text_footer{ font-size: 0.9em; }
 	#news_position h4, p{ font-size: 0.9em; }
@@ -131,7 +28,12 @@ list-style-type: none !important;
 	#footer_info li{ font-size: 0.9em; }
 	#footer_info h4{ font-size: 1em; margin-bottom: 0px; }
 }
-.dropdown a{
+.badge a {
+	color: yellow !important;
+	background-color: #F20B0B;
+	padding: 10px;
+}
+#navbarSupportedContent .dropdown a{
 	color: #F20B0B;
 }
 #footer_info{
@@ -250,9 +152,4 @@ ul{
 .btn{
 	color: white;
 }
-.align-badge a{
-	color: white;
-	background-color: #F20B0B;
-	padding: 10px;
->>>>>>> 1175aab162d3f56ca43cb85ba226d273ac2aa3b9
-}
+
