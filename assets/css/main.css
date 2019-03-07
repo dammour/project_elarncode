@@ -106,7 +106,7 @@ ul{
 	margin-right: 5px;
 }
 
-#navbarSupportedContent form.form-inline.my-2.my-lg-0 {
+form {
 	padding-top: 0 !important;
 }
 
