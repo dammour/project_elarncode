@@ -1,7 +1,26 @@
+/* respnsive */
+/* content */
 @media screen and (max-width: 576px) {
     .media {
-    justify-content: center !important;
+        justify-content: center !important;
     }
+    .media-body {
+        text-align: justify;
+        margin-left: 0px !important;
+        padding-right: 10px;
+        padding-left: 10px;
+
+    }
+
+    .text-center {
+        padding-bottom: 15px;
+
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
 }
 
 
@@ -14,7 +33,7 @@
     padding-top: 0px;
 }
 
-img {
+.img {
     margin: 17px 60px 17px 60px;
     width: 80px;
     height: 80px;
@@ -37,13 +56,13 @@ img {
     
 }
 
-h2
+.color-h2
 {
     color: #F85353;
 
 }
 
-h5 {
+.color-h5 {
     color: #F85353;
 }
 
@@ -69,44 +88,6 @@ h5 {
 
 }
 
-/* breadcrumb */
-.breadcrumb-item+.breadcrumb-item::before {
-    display: inline-block !important;
-    padding-right: .5rem !important;
-    color: #F85353 !important;
-    content: ">" !important;
-}
-/* aside */
-#aside
-{
-border-right: 0.1px solid rgba(112, 112, 112) !important;
-}
-/* breadcrumb-info */
-.breadcrumb-info li:nth-child(2)
-{
-    padding-right: 15px;
-}
-.breadcrumb-info i:nth-child(1)
-{
-    padding-right: 5px;
-}
-ul.breadcrumb-info
-{
-    padding-left: 0;
-}
-.breadcrumb-info
-{
-
-    margin-bottom: 0px;
-    list-style-type: none !important;
-    font-size: 15px;
-}   
-.breadcrumb-info li 
-{
-    display: inline-block;
-
-}
-
 #comment {
 
     padding-right: 5px;
@@ -125,8 +106,39 @@ ul.breadcrumb-info
 
 .page-link {
     color: #F85353 !important;
+    border-color: #F85353 !important;
 }
 
 #border {
     color: #F85353 !important;
+}
+
+.breadcrumb-info li:nth-child(2)
+{
+    padding-right: 15px;
+}
+.breadcrumb-info i:nth-child(1)
+{
+    padding-right: 15px !important;
+}
+ul.breadcrumb-info
+{
+    padding-left: 5px;
+}
+.breadcrumb-info
+{
+list-style-type: none !important;
+}
+.breadcrumb-info li 
+{
+    display: inline-block;
+}
+.breadcrumb
+{
+    background-color: white !important;
+    font-size: 22px;
+}
+.breadcrumb-item
+{
+    color: #1B355B;
 }
