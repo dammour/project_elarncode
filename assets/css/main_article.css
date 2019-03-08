@@ -13,6 +13,58 @@
     {
         max-width: 150%;
     }
+    #content
+    {
+        padding-left: 15px !important;
+        border: none !important;
+    }
+    .breadcrumb-info
+    {
+        font-size: small;
+        padding: 0px;
+    }
+    .breadcrumb-item
+    {
+        font-size: small; 
+    }
+    .navbar-brand   
+    {
+       margin-right: 0px;
+    }
+    .fas.fa-home::before    
+    {
+        font-size: 12px;
+        top: -6px;
+    }
+    .breadcrumb-info li:nth-child(2)
+    {
+        padding-right: 0px !important;
+    }
+    .breadcrumb-info i:nth-child(1)
+    {
+        padding-right:0px !important;
+    }
+    .breadcrumb-info li, .breadcrumb-info li 
+
+    {
+        padding-right: 0px !important;
+    }   
+    ul 
+    {
+        padding: 15px;
+    }
+    .fa-clock, .fa-comment
+    {
+        padding-left: 10px;
+    }
+    .card-body
+    {
+        padding: 10px;
+    }
+    ul.breadcrumb-info
+    {
+        padding-top: 10px !important;
+    }
 }
 
 /* all */
@@ -55,7 +107,7 @@ position: relative;
 /* aside */
 #aside
 {
-border-right: 0.1px solid rgba(112, 112, 112) !important;
+width: 200px !important;
 }
 
 h1.card-text {
@@ -64,7 +116,8 @@ h1.card-text {
 /* content */
 #content
 {
-    padding-left: 15px;
+    padding-left: 40px;
+    border-left: 0.1px solid rgba(112, 112, 112);
 }
 #img_article img
 {
@@ -77,8 +130,13 @@ h1.card-text {
     padding-right: 15px;
 }
 .breadcrumb-info i:nth-child(1)
+    {
+        padding-right:3px;
+        padding-left: 11px;
+    }
+.breadcrumb-info li
 {
-    padding-right: 15px !important;
+    padding: 0px !important ;
 }
 ul.breadcrumb-info
 {
@@ -106,4 +164,8 @@ list-style-type: none !important;
 {
     background-color: #F85353;
     border-color:  #F85353;
+}
+.btnwhite
+{
+    color: white;
 }
