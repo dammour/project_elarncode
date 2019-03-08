@@ -165,3 +165,7 @@ list-style-type: none !important;
     background-color: #F85353;
     border-color:  #F85353;
 }
+.btn.white
+{
+    color: white;
+}
