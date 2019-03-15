@@ -130,3 +130,39 @@ ul.breadcrumb-info
 #border {
     color: #F85353 !important;
 }
+
+/* try to event js /*
+/*
+.visible_cat{
+    visibility: visible;
+}
+*/
+
+/* .ocr{
+    display: none !important;
+}
+.freecode{
+    display: none;
+}
+.cademy{
+    display: none;
+}
+.sitepoint{
+    display: none;
+}
+.csst{
+    display: none;
+}
+.plural{
+    display: none;
+} */
+
+.hidden-block {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visible-block {
+    display: flex;
+    visibility: visible;
+}
