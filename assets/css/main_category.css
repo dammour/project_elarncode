@@ -1,46 +1,7 @@
-/* respnsive */
-/* content */
 @media screen and (max-width: 576px) {
     .media {
-        justify-content: center !important;
+    justify-content: center !important;
     }
-    .media-body {
-        text-align: justify;
-        margin-left: 0px !important;
-        padding-right: 10px;
-        padding-left: 10px;
-
-    }
-
-    .text-center {
-        padding-bottom: 15px;
-
-    }
-
-}
-
-@media screen and (max-width: 576px) {
-
-    .pagination {
-
-    padding-left: 140px !important;
-
-    }
-
-    .page-link {
-
-        display: flex;
-        justify-content: flex-end;
-        font-size: 10px;
-        padding-top: 4px !important;
-        padding-bottom: 4px !important;
-        padding-right: 6px !important;
-        padding-left: 6px !important;
-        
-
-
-    }
-
 }
 
 a#navbarDropdown{
@@ -55,7 +16,7 @@ a#navbarDropdown{
     padding-top: 0px;
 }
 
-.img {
+img {
     margin: 17px 60px 17px 60px;
     width: 80px;
     height: 80px;
@@ -78,13 +39,13 @@ a#navbarDropdown{
     
 }
 
-.color-h2
+h2
 {
     color: #F85353;
 
 }
 
-.color-h5 {
+h5 {
     color: #F85353;
 }
 
@@ -112,25 +73,14 @@ a#navbarDropdown{
 
 }
 
-#or {
-    padding-right: 10px;
-    font-size: 14px !important;    
-}
-
-/* Page Navigation */
-
-.pagination {
-    display: flex;
-    justify-content: flex-end;
-
-}
-
-.page-link {
+/* breadcrumb */
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block !important;
+    padding-right: .5rem !important;
     color: #F85353 !important;
-    border-color: #F85353 !important;
+    content: ">" !important;
 }
 
-<<<<<<< HEAD
 /* breadcrumb-info */
 
 #comment {
@@ -148,43 +98,12 @@ a#navbarDropdown{
     justify-content: flex-end;
     padding-bottom: 50px;
 
-=======
-#border {
+}
+
+.page-link {
     color: #F85353 !important;
 }
 
-/* .breadcrumb-info li:nth-child(2)
-{
-    padding-right: 15px;
-}
-.breadcrumb-info i:nth-child(1)
-{
-    padding-right: 15px !important;
-} */
-ul.breadcrumb-info
-{
-    padding-left: 5px;
-}
-.breadcrumb-info
-{
-list-style-type: none !important;
-}
-.breadcrumb-info li 
-{
-    display: inline-block;
-}
-.breadcrumb
-{
-    background-color: white !important;
-    font-size: 22px;
->>>>>>> b62d840ed669ca447a61b73f246b3288a7877bb0
-}
-.breadcrumb-item
-{
-    color: #1B355B;
-}
-
-.breadcrumb-info li {
-    padding: 0px;
-    
+#border {
+    color: #F85353 !important;
 }
