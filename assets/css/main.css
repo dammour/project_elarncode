@@ -32,6 +32,7 @@
 	#news_position h4, p{ font-size: 0.7em; }
 	#footer_info li{ font-size: 0.8em; }
 	#footer_info h4{ font-size: 0.9em; margin-bottom: 0px; }
+	#button_navbar{ margin-left: 0px;}
 }
 @media (max-width: 1200px){
 	#text_footer{ font-size: 0.8em; }
@@ -39,6 +40,7 @@
 	#footer_info li{ font-size: 0.9em; }
 	#footer_info h4{ font-size: 1em; margin-bottom: 0px; }
 }
+<<<<<<< HEAD
 
 body, html {
 	font-family: 'Lato';
@@ -73,14 +75,23 @@ h4.font-weight-bold.color_slider, p.font-weight-bold.color_slider{
 	padding-bottom: 70px;
 }
 
+=======
+#logo_elearncode{
+	width: 217px; 
+	height: 30px;
+}
+>>>>>>> b62d840ed669ca447a61b73f246b3288a7877bb0
 #menu-burger {
 	padding: 0;
 }
 #menu-burger .navbar-toggler {
 	padding: .15rem .65rem;
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> b62d840ed669ca447a61b73f246b3288a7877bb0
 #navbarSupportedContent .dropdown a{
 	color: #F85353;
 	margin-left: 0 !important;
@@ -91,14 +102,27 @@ h4.font-weight-bold.color_slider, p.font-weight-bold.color_slider{
 .color_slider{
 	color: white;
 }
+<<<<<<< HEAD
 .navbar{
 	padding-top: 20px;
 	padding-bottom: 20px;
+=======
+#title_chevron{
+	display: flex;
+	justify-content: flex-end;
+}
+#title_color{
+	color: #F20B0B;
+}
+.navbar li{
+	padding: 8px;
+>>>>>>> b62d840ed669ca447a61b73f246b3288a7877bb0
 }
 #white_txt{
 	color: white;
 }
 .card{
+<<<<<<< HEAD
 	padding: 30px;
 	border-radius: 0 !important;
 }
@@ -114,6 +138,15 @@ margin-right: 20px;
 }
 .badge{
 	border-radius: 0 !important;
+=======
+	margin: 15px 2% 2% 2%;
+	padding-right: 40px;
+	padding-left: 40px;
+	height: 275.2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+>>>>>>> b62d840ed669ca447a61b73f246b3288a7877bb0
 }
 .align-badge{
 	display: flex;
@@ -205,10 +238,19 @@ form {
 	font-size: 1.6rem;
 }
 .fa-chevron-right{
+<<<<<<< HEAD
 	padding-left: 10px;
 }
 .fa-chevron-left{
 	padding-right: 10px;
+=======
+	color: black;
+	margin-top: 10px;
+}
+.fa-chevron-left{
+	color: black;
+	margin-top: 10px;
+>>>>>>> b62d840ed669ca447a61b73f246b3288a7877bb0
 }
 .red-line{
 	background-color: #F85353;
@@ -229,6 +271,7 @@ form {
 } */
 
 .btn{
+<<<<<<< HEAD
 	border-radius: 0px !important;
 }
 
@@ -258,3 +301,17 @@ form {
 #logo_store img{
 	padding-bottom: 10px;
 }
+=======
+	color: white;
+	background-color: #F20B0B;
+	padding: 10px;
+}
+#contact_link{
+	text-decoration: none !important;
+	color: black !important;
+}
+.btn:hover{
+	color: white;
+}
+/* end ! */
+>>>>>>> b62d840ed669ca447a61b73f246b3288a7877bb0
