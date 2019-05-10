@@ -1,0 +1,73 @@
+/**** All ****/ 
+h2 {
+    color: #F85353;
+    padding-bottom: 10px; 
+    padding-top: 20px;
+}
+.form-contact form {
+    padding-top: 30px;
+}
+form .btn {
+    background-color: #F85353;
+    border: none;
+}
+form .btn:hover {
+    background-color: #F85353;
+    color: #FFF;
+}
+#wrapper form {
+    padding-bottom: 65px;
+}
+.far {
+    padding-right: 10px;
+} 
+
+.p-legal-contact {
+    font-style: italic;
+    font-size: 0.7rem;
+    line-height: 1.8;
+}
+#wrapper {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+/**** Button form contact ****/
+#contentAfterClickButton {
+    padding-top: 20px;
+}
+.modalButton {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.modalButtonContent {
+    background-color: #f4f4f4;
+    margin: 20% auto;
+    padding: 20px;
+    width: 70%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17),
+}
+
+.closeButton {
+    color: #cccccc;
+    float: right;
+    font-size: 30px;
+}
+
+.closeButton:hover, .closeButton:focus {
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+

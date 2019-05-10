@@ -1,0 +1,48 @@
+
+.bgModalContact{
+    width: 100vw;
+    height: 100vh;
+    background-color: #F85353;
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#modalContentContact{
+    width: 500px;
+    background-color: #fff;
+    opacity: 1;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+#modalContentContact img{
+    width: 30%;
+}
+
+#modalContentContact .form-group{
+    text-align: left;
+}
+
+input#dropdownCheck, label.form-check-label{
+    display: block;
+}
+
+input:focus{
+    box-shadow:none !important;
+}
+
+input::placeholder{
+    font-size: 0.8rem !important;
+    color: #aeaeae !important;
+}
+
+#modalContentContact img{
+    padding-bottom: 20px !important;
+}
